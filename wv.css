@@ -1,0 +1,30 @@
+#random{
+  position:relative;
+  cursor:pointer;
+  text-decoration:underline;
+  left:100px;
+  color:white;
+}
+
+a{
+  color:#adeaea;
+  
+}
+h2{
+  font-family:Algerian;
+  color:#00008b;
+}
+#search{
+  position:absolute;
+  width:55px;
+  -webkit-transition: width 2s;
+  transition:width 2s;
+  border-radius:20px;
+}
+#search:focus{
+   width:250px;
+}
+#demo{
+  font-size:20px;
+  display:block;
+}
